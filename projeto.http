@@ -1,0 +1,27 @@
+POST http://localhost:3000/novoproduto
+Content-Type: application/json
+
+{
+    "nome": "Camiseta",
+    "preço": "49,99",
+    "descrição": "Camiseta preta tamanho G"
+}
+
+###
+
+GET http://localhost:3000/listarprodutos
+
+###
+
+PUT http://localhost:3000/novoproduto/2
+Content-Type: application/json
+
+{
+    "nome": "Calça",
+    "preço": "59,99",
+    "descrição": "Calça jeans tamanho 40"
+}
+
+###
+
+DELETE http://localhost:3000/novoproduto/1
