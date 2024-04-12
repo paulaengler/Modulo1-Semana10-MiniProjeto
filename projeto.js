@@ -102,3 +102,4 @@ app.delete('/novoproduto/:id', (request,response) => {
     produtos.splice(index, 1);
     response.status(200).send('Produto deletado com sucesso.');
 });
+

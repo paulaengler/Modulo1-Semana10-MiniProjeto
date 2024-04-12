@@ -34,7 +34,7 @@ POST http://localhost:3000/novoproduto: {
       "keep-alive": "timeout=5"
     },
     "Response Body": "{\"mensagem\":\"Novo produto adicionado com sucesso\",\"dados\":{\"id\":1,\"nome\":\"Camiseta\",\"preço\":\"49,99\",\"descrição\":\"Camiseta preta tamanho G\"}}"
-  }
+  
   POST http://localhost:3000/novoproduto: {
     "Network": {
       "addresses": {
@@ -71,7 +71,7 @@ POST http://localhost:3000/novoproduto: {
       "keep-alive": "timeout=5"
     },
     "Response Body": "{\"mensagem\":\"Novo produto adicionado com sucesso\",\"dados\":{\"id\":2,\"nome\":\"Saia\",\"preço\":\"89,99\",\"descrição\":\"Saia azul tamanho M\"}}"
-  }
+  
   GET http://localhost:3000/listarprodutos: {
     "Network": {
       "addresses": {
@@ -106,7 +106,7 @@ POST http://localhost:3000/novoproduto: {
       "keep-alive": "timeout=5"
     },
     "Response Body": "[{\"id\":1,\"nome\":\"Camiseta\",\"preço\":\"49,99\",\"descrição\":\"Camiseta preta tamanho G\"},{\"id\":2,\"nome\":\"Saia\",\"preço\":\"89,99\",\"descrição\":\"Saia azul tamanho M\"}]"
-  }
+  
   PUT http://localhost:3000/novoproduto/2: {
     "Network": {
       "addresses": {
@@ -143,7 +143,7 @@ POST http://localhost:3000/novoproduto: {
       "keep-alive": "timeout=5"
     },
     "Response Body": "{\"mensagem\":\"Produto atualizado com sucesso.\",\"dados\":{\"id\":2,\"nome\":\"Calça\",\"preço\":\"59,99\",\"descrição\":\"Calça jeans tamanho 40\"}}"
-  }
+  
   GET http://localhost:3000/listarprodutos: {
     "Network": {
       "addresses": {
@@ -178,7 +178,7 @@ POST http://localhost:3000/novoproduto: {
       "keep-alive": "timeout=5"
     },
     "Response Body": "[{\"id\":1,\"nome\":\"Camiseta\",\"preço\":\"49,99\",\"descrição\":\"Camiseta preta tamanho G\"},{\"id\":2,\"nome\":\"Calça\",\"preço\":\"59,99\",\"descrição\":\"Calça jeans tamanho 40\"}]"
-  }
+  
   DELETE http://localhost:3000/novoproduto/1: {
     "Network": {
       "addresses": {
@@ -213,7 +213,7 @@ POST http://localhost:3000/novoproduto: {
       "keep-alive": "timeout=5"
     },
     "Response Body": "Produto deletado com sucesso."
-  }
+  
   GET http://localhost:3000/listarprodutos: {
     "Network": {
       "addresses": {
@@ -248,4 +248,4 @@ POST http://localhost:3000/novoproduto: {
       "keep-alive": "timeout=5"
     },
     "Response Body": "[{\"id\":2,\"nome\":\"Calça\",\"preço\":\"59,99\",\"descrição\":\"Calça jeans tamanho 40\"}]"
-  }
+  
